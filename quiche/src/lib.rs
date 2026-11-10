@@ -9749,6 +9749,9 @@ impl std::fmt::Debug for Stats {
 pub mod test_utils;
 
 #[cfg(test)]
+mod ack_bench;
+
+#[cfg(test)]
 mod tests;
 
 pub use crate::packet::ConnectionId;
